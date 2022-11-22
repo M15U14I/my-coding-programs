@@ -1,0 +1,6 @@
+a=30
+b=16
+c=a/b
+print(c)
+
+Output:1.875
