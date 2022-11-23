@@ -1,0 +1,13 @@
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+a=a+b
+b=a-b
+a=a-b
+print('a value:',a)
+print('b value:',b)
+
+OUTPUT:
+enter a:23
+enter b:56
+a value: 56
+b value: 23
