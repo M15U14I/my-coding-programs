@@ -1,0 +1,14 @@
+p=int(input('Principal '))
+t=int(input('Time period '))
+r=int(input('Rate of interest '))
+si=(p*t*r)/100
+print('simple interest:',si)
+emi=(si+p)/t*12
+print('EMI:',emi)
+
+OUTPUT:
+Principal 10000
+Time period 3
+Rate of interest 10
+simple interest: 3000.0
+EMI: 52000.0
