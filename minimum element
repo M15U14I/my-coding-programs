@@ -1,0 +1,10 @@
+#minimum element
+list=[2, 45,63,55]
+min=list[0]
+for i in list:
+    if i<min:min=i
+print('minimum value:',min)
+
+Output
+    
+    minimum value: 2
