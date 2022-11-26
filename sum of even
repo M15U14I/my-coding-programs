@@ -1,0 +1,10 @@
+#sum of even
+list=[2, 4,6,45,63,1]
+sum=0
+for i in list:
+    if i%2==0:sum=sum+i
+print('sum of even:', sum) 
+
+Output
+    
+      sum of even: 12
