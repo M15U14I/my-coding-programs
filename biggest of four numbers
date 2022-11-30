@@ -1,0 +1,26 @@
+Write a program to print biggest of four numbers?
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if a>b:
+    if a>c:
+        if a>d:
+            print("a is BIG")
+if b>a:
+    if b>c:
+        if b>d:
+            ptint("b is BIG")
+if c>a:
+    if c>b:
+        if c>d:
+            print("c is BIG")
+else:
+    print("d is BIG")
+    
+    
+    OUTPUT:a=10
+    b=20
+    c=30
+    d=40
+    d is big
