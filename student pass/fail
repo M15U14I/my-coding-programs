@@ -1,0 +1,26 @@
+
+write a program to print student is pass or fail
+sno,sname,group,s1`,s2,s3
+c1:s1>=35 c2:s2>=35  c3:s3>=35--all conditions satisfy  true print pass
+otherwise print fail?
+
+
+sno=int(input('enter the sno'))
+sname=input('enter the name')
+group=input('enter the group')
+s1=int(input('s1='))
+s2=int(input('s2='))
+s3=int(input('s3='))
+if s1>=35 and s2>=35 and s3>=35:
+   print('PASS')
+else:
+    print('FAIL')
+ouput
+enter the sno1
+enter the nameneelima
+enter the groupmccs
+s1=95
+s2=98
+s3=93
+PASS
+
